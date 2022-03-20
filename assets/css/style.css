@@ -41,7 +41,7 @@ header::after {
   min-height: 100px;
 }
 
-.card button {
+button {
   background-color:rgb(5, 103, 214);
   border-radius: 25px;
   box-shadow: 
@@ -55,13 +55,13 @@ header::after {
   padding: 14px 34px;
 }
 
-.card button::before {
+button::before {
   content: " ";
   background: #fff;
   height: 2px;
 }
 
-.card button::after {
+button::after {
   content: " ";
   clear: both;
 }
